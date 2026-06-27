@@ -281,6 +281,16 @@ section {
 /* ── ABOUT ── */
 #about { background: var(--bg-sec); border-top: 1px solid var(--border); }
 
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
