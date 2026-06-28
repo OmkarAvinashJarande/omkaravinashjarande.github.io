@@ -293,6 +293,15 @@ section {
   font-size: 0.97rem;
 }
 
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 194, 168, 0.15);
+}
+
 .about-stats {
   display: flex;
   gap: 2.5rem;
