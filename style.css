@@ -294,11 +294,13 @@ section {
 }
 
 .profile-img {
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 12px;
   object-fit: cover;
   margin-bottom: 1.5rem;
+  max-width: 100%;
   box-shadow: 0 8px 24px rgba(0, 194, 168, 0.15);
 }
 
